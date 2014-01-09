@@ -21,6 +21,7 @@
 		B3433420187E337F0017D7B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3433402187E337E0017D7B3 /* UIKit.framework */; };
 		B3433428187E337F0017D7B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3433426187E337F0017D7B3 /* InfoPlist.strings */; };
 		B343342A187E337F0017D7B3 /* ModelDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3433429187E337F0017D7B3 /* ModelDataTestTests.m */; };
+		B3433435187E33AC0017D7B3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B3433434187E33AC0017D7B3 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B3433425187E337F0017D7B3 /* ModelDataTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModelDataTestTests-Info.plist"; sourceTree = "<group>"; };
 		B3433427187E337F0017D7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3433429187E337F0017D7B3 /* ModelDataTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelDataTestTests.m; sourceTree = "<group>"; };
+		B3433433187E33AC0017D7B3 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		B3433434187E33AC0017D7B3 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		B3433404187E337E0017D7B3 /* ModelDataTest */ = {
 			isa = PBXGroup;
 			children = (
+				B3433433187E33AC0017D7B3 /* Model.h */,
+				B3433434187E33AC0017D7B3 /* Model.m */,
 				B343340D187E337E0017D7B3 /* AppDelegate.h */,
 				B343340E187E337E0017D7B3 /* AppDelegate.m */,
 				B3433410187E337E0017D7B3 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				B3433415187E337E0017D7B3 /* ViewController.m in Sources */,
 				B343340F187E337E0017D7B3 /* AppDelegate.m in Sources */,
 				B343340B187E337E0017D7B3 /* main.m in Sources */,
+				B3433435187E33AC0017D7B3 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
